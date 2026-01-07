@@ -1,0 +1,11 @@
+# Local tooling artifacts
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets / local overrides
+.env
+.env.*
+

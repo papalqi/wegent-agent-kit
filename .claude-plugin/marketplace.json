@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wegent-agent-kit",
+  "description": "Wegent devkit: MCP + skills + commands for Claude Code",
+  "owner": {
+    "name": "papalqi"
+  },
+  "plugins": [
+    {
+      "name": "wegent-devkit",
+      "description": "Wegent contributor/dev workflow helpers (MCP + skills + slash commands)",
+      "author": {
+        "name": "papalqi"
+      },
+      "source": "./plugins/wegent-devkit",
+      "category": "development",
+      "homepage": "https://github.com/papalqi/wegent-agent-kit"
+    }
+  ]
+}
+
